@@ -1,4 +1,4 @@
-package pol.rubiano.simpsonspool.app.data.apimodels
+package pol.rubiano.simpsonspool.features.episodes.data.apimodels
 
 import com.google.gson.annotations.SerializedName
 

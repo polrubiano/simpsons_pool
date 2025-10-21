@@ -1,4 +1,4 @@
-package pol.rubiano.simpsonspool.app.domain.models
+package pol.rubiano.simpsonspool.features.locations.domain.models
 
 data class Location(
     val id: String,

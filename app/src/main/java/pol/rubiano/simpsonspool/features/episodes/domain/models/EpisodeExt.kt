@@ -1,6 +1,6 @@
-package pol.rubiano.simpsonspool.app.domain.models
+package pol.rubiano.simpsonspool.features.episodes.domain.models
 
-import pol.rubiano.simpsonspool.app.data.apimodels.EpisodeApiModel
+import pol.rubiano.simpsonspool.features.episodes.data.apimodels.EpisodeApiModel
 
 fun Episode.toApiModel(): EpisodeApiModel {
     return EpisodeApiModel(

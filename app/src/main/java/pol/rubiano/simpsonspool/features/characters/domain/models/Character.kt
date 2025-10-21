@@ -1,4 +1,4 @@
-package pol.rubiano.simpsonspool.app.domain.models
+package pol.rubiano.simpsonspool.features.characters.domain.models
 
 data class Character(
     val id: Int,
