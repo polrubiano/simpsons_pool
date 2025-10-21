@@ -1,6 +1,6 @@
-package pol.rubiano.simpsonspool.app.data.apimodels
+package pol.rubiano.simpsonspool.features.locations.data.apimodels
 
-import pol.rubiano.simpsonspool.app.domain.models.Location
+import pol.rubiano.simpsonspool.features.locations.domain.models.Location
 
 fun LocationApiModel.toLocation(): Location {
     return Location(
