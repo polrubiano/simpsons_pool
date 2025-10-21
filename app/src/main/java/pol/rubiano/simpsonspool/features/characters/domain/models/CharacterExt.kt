@@ -1,9 +1,9 @@
 package pol.rubiano.simpsonspool.features.characters.domain.models
 
-import pol.rubiano.simpsonspool.features.characters.data.apimodels.CharacterApiModel
+import pol.rubiano.simpsonspool.features.characters.data.local.entities.CharacterEntity
 
-fun Character.toApiModel(): CharacterApiModel {
-    return CharacterApiModel(
+fun Character.toEntity(): CharacterEntity {
+    return CharacterEntity(
         id = id,
         age = age,
         birthdate = birthdate,

@@ -1,9 +1,9 @@
 package pol.rubiano.simpsonspool.features.episodes.domain.models
 
-import pol.rubiano.simpsonspool.features.episodes.data.apimodels.EpisodeApiModel
+import pol.rubiano.simpsonspool.features.episodes.data.local.entities.EpisodeEntity
 
-fun Episode.toApiModel(): EpisodeApiModel {
-    return EpisodeApiModel(
+fun Episode.toEntity(): EpisodeEntity {
+    return EpisodeEntity(
         id = id,
         airdate = airdate,
         episodeNumber = episodeNumber,
