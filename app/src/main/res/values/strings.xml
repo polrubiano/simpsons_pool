@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Simpsons Pool</string>
+
+    <!-- Error View -->
+    <string name="str_imageErrorContentDescription">Error Image</string>
+    <string name="str_retry">Retry</string>
+
+    <!-- Error - No Results -->
+    <string name="str_error_no_results_title">No Results</string>
+    <string name="str_error_no_results_message">We couldn't find any results for your search.</string>
+
+    <!-- Error - Data -->
+    <string name="str_error_data_title">Data Error</string>
+    <string name="str_error_data_message">There was an error loading the data.</string>
+
+    <!-- Error - Unknown -->
+    <string name="str_error_unknown_title">Unknown Error</string>
+    <string name="str_error_unknown_message">An unknown error has occurred.</string>
+
 </resources>
