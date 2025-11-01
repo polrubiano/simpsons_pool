@@ -1,5 +1,8 @@
 package pol.rubiano.simpsonspool.app.domain.models
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class ApiResponse<T>(
     val count: Int,
     val next: String?,
