@@ -1,15 +1,17 @@
 package pol.rubiano.simpsonspool.features.characters.data.apimodels
 
-import com.google.gson.annotations.SerializedName
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
 
+@Serializable
 data class CharacterApiModel(
-    @SerializedName("id") val id: Int,
-    @SerializedName("age") val age: Int,
-    @SerializedName("birthdate") val birthdate: String,
-    @SerializedName("gender") val gender: String,
-    @SerializedName("name") val name: String,
-    @SerializedName("occupation") val occupation: String,
-    @SerializedName("portrait_path") val portraitPath: String,
-    @SerializedName("phrases") val phrases: List<String>,
-    @SerializedName("status") val status: String
+    @SerialName("id") val id: Int,
+    @SerialName("age") val age: Int = 0,
+    @SerialName("birthdate") val birthdate: String = "",
+    @SerialName("gender") val gender: String,
+    @SerialName("name") val name: String,
+    @SerialName("occupation") val occupation: String,
+    @SerialName("portrait_path") val portraitPath: String,
+    @SerialName("phrases") val phrases: List<String>,
+    @SerialName("status") val status: String
 )
