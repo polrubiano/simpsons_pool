@@ -7,7 +7,7 @@
 
     <!-- Error - No Results -->
     <string name="str_error_no_results_title">No Results</string>
-    <string name="str_error_no_results_message">We couldn't find any results for your search.</string>
+    <string name="str_error_no_results_message">We couldn\'t find any results for your search.</string>
 
     <!-- Error - Data -->
     <string name="str_error_data_title">Data Error</string>
